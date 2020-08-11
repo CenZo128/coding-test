@@ -1,4 +1,4 @@
-import { observable, action, computed, decorate } from 'mobx'
+import { observable, action, decorate } from 'mobx'
 
 export class CounterStore {
   count = 10

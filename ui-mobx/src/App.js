@@ -3,10 +3,10 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from 'react-router-dom'
 import routes from './routers'
 import './App.css';
+import Header from './components/Header'
 
 function App() {
   // Kopas dari link React Router DOM => Config Basic
@@ -27,6 +27,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <Header></Header>
         <Switch>
           {routes.map((route, i) => (
             <RouteWithSubRoutes key={i} {...route} />
