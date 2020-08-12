@@ -54,6 +54,7 @@ export class ProductStore {
 
 decorate(ProductStore, {
   products: observable,
+  getProducts: action,
   addProduct: action,
   deleteProduct: action
 })

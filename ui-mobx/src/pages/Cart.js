@@ -1,6 +1,7 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 function Cart() {
+    const {}= React.useState()
     return (
         <div>
             <h3>Cart</h3>
