@@ -1,6 +1,7 @@
 import Home from '../pages/Home'
-import Login from '../pages/Login'
-import Register from '../pages/Register'
+import Cart from '../pages/Cart'
+import Transaction from '../pages/Transaction'
+import Profile from '../pages/Profile'
 
 const routes = [
     {
@@ -9,14 +10,19 @@ const routes = [
         component: Home
     },
     {
-        path: "/login",
+        path: "/cart",
         exact: true,
-        component: Login
+        component: Cart
     },
     {
-        path: "/register",
+        path: "/transaction",
         exact: true,
-        component: Register
+        component: Transaction
+    },
+    {
+        path: "/profile",
+        exact: true,
+        component: Profile
     },
     
 ];
